@@ -10,13 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RakutechApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(RakutechApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(RakutechApplication .class, args);
+    }
 
-	@GetMapping("/Rakutech")
-	public String hello(@RequestParam(value = "name", defaultValue = "Rakutech") String name) {
-		return String.format("Hello %s!", name);
-	}
+    @GetMapping("/Rakutech")
+    public String hello(@RequestParam(value = "name", defaultValue = "Rakutech") String name) {
+        return String.format("Hello %s!", name);
+    }
 
 }
+
