@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class RakutechApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RakutechApplication .class, args);
+
+        SpringApplication.run(RakutechApplication.class, args);
     }
 
     @GetMapping("/Rakutech")
