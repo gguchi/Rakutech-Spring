@@ -17,7 +17,7 @@ public class DBLoad implements CommandLineRunner {
     }
 
     public void run(String... strings) throws Exception {
-        this.repository.save(new User("Testing ", "Password", "FULLNAME"));
+        this.repository.save(new User("update ", "update", "update"));
     }
 
 }

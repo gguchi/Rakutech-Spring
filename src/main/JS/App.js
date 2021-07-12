@@ -21,10 +21,6 @@ class App extends React.Component {
 		)
 	}
 
-
-
-}
-
 class UserList extends React.Component{
 	render() {
 		const users = this.props.user.map(user =>
@@ -60,3 +56,6 @@ ReactDOM.render(
 	<App />,
 	document.getElementById('react')
 )
+
+
+}
